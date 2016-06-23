@@ -1,5 +1,5 @@
 {
     "globals": {
-        "media_url": "http://res.cloudinary.com/jesskchou/image/upload/"
+        "media_url": "cloudinary.com/jesskchou/image/upload/"
     }
 }

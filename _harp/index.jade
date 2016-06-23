@@ -2,16 +2,15 @@
 
 .content
     .grid
-        for story in public.stories._data
+        for story, index in public.stories._data
             .box.story(
                 data-topics="#{story.topics}",
                 data-mediums="#{story.mediums}"
             )
                 a(href="#{story.url}")
                     .box-content(
-                        style="background-image: url(#{media_url}#{story.photo_url});",
+                        style="background-image: url(//res-#{index % 5 + 1}.#{media_url}#{story.photo_url});",
                     )
                         .box-title-box
                             .box-title=story.title
-
     != partial("_bio")
