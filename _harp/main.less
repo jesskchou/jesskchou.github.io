@@ -40,7 +40,7 @@ body{
   top: 0;
   width: 300px;
   height: calc(~"100% - 60px");
-  padding: 30px;
+  padding: 30px 0;
 
   .about {
     padding-bottom: 30px;
@@ -72,14 +72,14 @@ body{
   .bottom {
     position: absolute;
     bottom: 30px;
-    right: 30px;
+    right: 0;
     text-align: right;
   }
 }
 
 
 .content {
-  width: calc(~"100% - 360px");
+  width: calc(~"100% - 300px");
   background: #f7f7f7;
   height: 100%;
   position: fixed;
@@ -92,10 +92,38 @@ body{
     .story.hidden {
       display: none;
     }
+    @media only screen and (max-width: 768px) {
+      .box {
+        width: 100%;
+        padding-bottom: 100%;
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      .box {
+        width: 50%;
+        padding-bottom: 50%;
+      }
+    }
+    @media only screen and (min-width: 960px) {
+      .box {
+        width: 100/3%;
+        padding-bottom: 100/3%;
+      }
+    }
+    @media only screen and (min-width: 1240px) {
+      .box {
+        width: 25%;
+        padding-bottom: 25%;
+      }
+    }
+    @media only screen and (min-width: 1600px) {
+      .box {
+        width: 20%;
+        padding-bottom: 20%;
+      }
+    }
 
     .box {
-      width: 100/3%;
-      padding-bottom: 100/3%;
       float: left;
       position: relative;
 
