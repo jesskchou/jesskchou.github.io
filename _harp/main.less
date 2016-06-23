@@ -54,12 +54,25 @@ body{
     list-style: none;
     padding-bottom: 30px;
   }
+
   .choices>li {
     cursor: pointer;
 
     &.active {
       font-weight: 400;
       cursor: default;
+    }
+  }
+  @media only screen
+      and (max-device-width: 736px)
+      and (-webkit-min-device-pixel-ratio: 2)
+      and (orientation: portrait) {
+    .med, .top {
+      padding-bottom: 10px;
+    }
+    .choices>li {
+      padding: 10px;
+      font-size: 25px;
     }
   }
 
