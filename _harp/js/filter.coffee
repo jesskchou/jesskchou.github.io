@@ -27,19 +27,37 @@ $(document).ready ->
         filterStories()
         $(".topic").removeClass("active")
         $(this).addClass("active")
+        $(".top").addClass("active-selection")
 
     $(".medium").click (e) ->
         selected_medium = medium_map[$(e.target).attr("id")].toString()
         filterStories()
         $(".medium").removeClass("active")
         $(this).addClass("active")
+        $(".med").addClass("active-selection")
 
     $(".top").click (e) ->
         selected_topic = null
         filterStories()
         $(".topic").removeClass("active")
+        $(".top").removeClass("active-selection")
 
     $(".med").click (e) ->
         selected_medium = null
         filterStories()
         $(".medium").removeClass("active")
+        $(".med").removeClass("active-selection")
+
+
+    $(".bio-link").click (e) ->
+        if $(this).text() == "About Me"
+            $(".grid").hide()
+            $(".bio").show()
+            $(".controls").hide()
+            $(this).text("Home")
+
+        else
+            $(".grid").show()
+            $(".bio").hide()
+            $(".controls").show()
+            $(this).text("About Me")
