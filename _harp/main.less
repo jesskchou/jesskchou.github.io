@@ -1,19 +1,93 @@
 body{
-  font-family: "Helvetica";
-  text-align: center;
-  padding: 50px 20px 0;
-  background: #f4f4f7;
+  font-family: "Source Sans";
+  font-weight: 300;
+  text-align: left;
+  background: #fff;
   color: #444;
+  padding: 0;
   margin: 0;
 }
 
-h1{
-  font-size: 65px;
-  line-height: 1.2em;
-  border-bottom: #CCC solid 1px;
-  padding: 20px 0;
+.name{
+  font-family: "Alegreya Sans";
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 0.5em;
+  display: inline-block;
+  margin: 10px 0;
+  text-transform: uppercase;
 }
 
-h3{
+.h3,.h5{
+  font-family: "Raleway";
+}
+
+.h3{
+  font-size: 30px;
   font-weight: 300;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.h5 {
+  font-size: 18px;
+  font-weight: 100;
+}
+
+.menu {
+  text-align: right;
+  position: fixed;
+  top: 0;
+  width: 300px;
+  height: calc(~"100% - 60px");
+  padding: 30px;
+
+  .about{
+    padding-bottom: 30px;
+  }
+
+  ul {
+    list-style: none;
+    padding-bottom: 30px;
+  }
+
+  .bottom {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    text-align: right;
+  }
+}
+
+
+.content {
+  width: calc(~"100% - 360px");
+  background: #f7f7f7;
+  height: 100%;
+  position: fixed;
+  right: 0;
+
+  .grid {
+    height: 100%;
+    overflow-y: scroll;
+
+    .box {
+      width: 100/3%;
+      padding-bottom: 100/3%;
+      float: left;
+      position: relative;
+
+      .box-content {
+        background-color: #ddd;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: calc(~"100% - 40px");
+        height: calc(~"100% - 40px");
+        color: #fff;
+        padding: 10px;
+        margin: 10px;
+      }
+    }
+  }
 }
