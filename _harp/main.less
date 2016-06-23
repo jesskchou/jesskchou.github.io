@@ -92,6 +92,7 @@ body{
     .story.hidden {
       display: none;
     }
+
     @media only screen and (max-width: 768px) {
       .box {
         width: 100%;
@@ -157,7 +158,18 @@ body{
           -webkit-box-orient: vertical;
         }
       }
+    }
+    @media only screen
+        and (max-device-width: 736px)
+        and (-webkit-min-device-pixel-ratio: 2) {
+      .box {
+        width: 100%;
+        padding-bottom: 100%;
 
+        .box-title-box .box-title {
+          font-size: 3vw;
+        }
+      }
     }
   }
 }
