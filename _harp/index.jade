@@ -2,8 +2,14 @@
 
 .content
     .grid
-        - var n = 0
-        while n < 100
-            .box
-                .box-content hey
-            - n++
+        for story in public.stories._data
+            .box.story(
+                data-topics="#{story.topics}",
+                data-mediums="#{story.mediums}"
+            )
+                a(href="#{story.url}")
+                    .box-content(
+                        style="background-image: url(#{story.photo_url});",
+                    )
+                        .box-title-box
+                            .box-title=story.title
