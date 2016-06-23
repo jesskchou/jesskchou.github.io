@@ -9,7 +9,7 @@
             )
                 a(href="#{story.url}")
                     .box-content(
-                        style="background-image: url(http://res.cloudinary.com/jesskchou/image/upload/#{story.photo_url});",
+                        style="background-image: url(#{media_url}#{story.photo_url});",
                     )
                         .box-title-box
                             .box-title=story.title
