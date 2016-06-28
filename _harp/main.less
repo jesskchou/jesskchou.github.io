@@ -127,7 +127,7 @@ body{
 
 
 .content {
-  width: calc(~"100% - 300px");
+  width: calc(~"100% - 320px");
   background: #f7f7f7;
   height: 100%;
   position: fixed;
@@ -139,37 +139,6 @@ body{
 
     .story.hidden {
       display: none;
-    }
-
-    @media only screen and (max-width: 768px) {
-      .box {
-        width: 100%;
-        padding-bottom: 100%;
-      }
-    }
-    @media only screen and (min-width: 768px) {
-      .box {
-        width: 50%;
-        padding-bottom: 50%;
-      }
-    }
-    @media only screen and (min-width: 960px) {
-      .box {
-        width: 100/3%;
-        padding-bottom: 100/3%;
-      }
-    }
-    @media only screen and (min-width: 1240px) {
-      .box {
-        width: 25%;
-        padding-bottom: 25%;
-      }
-    }
-    @media only screen and (min-width: 1600px) {
-      .box {
-        width: 20%;
-        padding-bottom: 20%;
-      }
     }
 
     .box {
@@ -207,6 +176,50 @@ body{
         }
       }
     }
+
+    @media only screen and (max-width: 768px) {
+      .box {
+        width: 100%;
+        padding-bottom: 100%;
+        .box-title-box .box-title {
+          font-size: 2.5vw;
+        }
+      }
+    }
+    @media only screen and (min-width: 768px) {
+      .box {
+        width: 50%;
+        padding-bottom: 50%;
+        .box-title-box .box-title {
+          font-size: 1.5vw;
+        }
+      }
+    }
+    @media only screen and (min-width: 960px) {
+      .box {
+        width: 100/3%;
+        padding-bottom: 100/3%;
+      }
+    }
+    @media only screen and (min-width: 1240px) {
+      .box {
+        width: 25%;
+        padding-bottom: 25%;
+        .box-title-box .box-title {
+          font-size: 1vw;
+        }
+      }
+    }
+    @media only screen and (min-width: 1600px) {
+      .box {
+        width: 20%;
+        padding-bottom: 20%;
+        .box-title-box .box-title {
+          font-size: .75vw;
+        }
+      }
+    }
+
     @media only screen
         and (max-device-width: 736px)
         and (-webkit-min-device-pixel-ratio: 2) {
