@@ -7,7 +7,7 @@
                 data-topics="#{story.topics}",
                 data-mediums="#{story.mediums}"
             )
-                a(href="#{story.url}")
+                a(href="#{story.url}" target="_blank")
                     .box-content(
                         style="background-image: url(//res-#{index % 5 + 1}.#{media_url}#{story.photo_url});",
                     )
