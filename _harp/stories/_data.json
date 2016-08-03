@@ -49,6 +49,13 @@
       "photo_url": "flavorwire.png"
     },
     {
+      "title": "Backstage Pass: The New York City Ballet’s Sufjan Stevens Collaboration",
+      "url": "https://www.openingceremony.com/entry.asp?pid=9710",
+      "topics": [2],
+      "mediums": [0,2],
+      "photo_url": "nycb.png"
+    },
+    {
       "title": "Sound Check: Rob Moose",
       "url": "https://www.openingceremony.com/entry.asp?pid=10085",
       "topics": [2],
@@ -70,11 +77,11 @@
       "photo_url": "judd.png"
     },
     {
-      "title": "Backstage Pass: The New York City Ballet’s Sufjan Stevens Collaboration",
-      "url": "https://www.openingceremony.com/entry.asp?pid=9710",
-      "topics": [2],
-      "mediums": [0,2],
-      "photo_url": "nycb.png"
+      "title": "Friday's At Five: Opening Ceremony's Cocktail Column",
+      "url": "https://www.openingceremony.com/entry.asp?sid=5&cat=Fridays%20At%20Five",
+      "topics": [0],
+      "mediums": [2,3],
+      "photo_url": "fridays.gif"
     },
     {
       "title": "Setting The Twerk Record Straight With Big Freedia",
@@ -299,12 +306,5 @@
       "topics": [0],
       "mediums": [1],
       "photo_url": "salt.png"
-    },
-    {
-      "title": "Friday's At Five: Opening Ceremony's Cocktail Column",
-      "url": "https://www.openingceremony.com/entry.asp?sid=5&cat=Fridays%20At%20Five",
-      "topics": [0],
-      "mediums": [2,3],
-      "photo_url": "fridays.gif"
     }
 ]
