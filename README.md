@@ -10,7 +10,7 @@
 3. `harp compile _harp . `
 	* _harp = input
 	* . = here
-4. TBD git add, commit, and push
+4. Git add, commit, and push
 	* `git status` tells you where you are at / progress
 	* `git add` will add specific files if new
 	* `git commit -am '<insert update message here>'` will commit to local repository
