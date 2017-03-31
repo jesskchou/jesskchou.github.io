@@ -16,3 +16,15 @@
 	* `git commit -am '<insert update message here>'` will commit to local repository
 	* `git push` will push to github
 
+Topics: 
+0 = Food
+1 = Fashion
+2 = Arts & Entertainment
+3 = General Lifestyle
+4 = Home
+
+Medium 
+0 = Photography
+1 = Video
+2 = Writing
+3 = Gifs

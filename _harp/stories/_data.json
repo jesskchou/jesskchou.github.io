@@ -56,11 +56,25 @@
       "photo_url": "nycb.png"
     },
     {
+      "title": "I'm Only Buying 10 Pieces Of Clothing This Year—Here's Everything I Regret",
+      "url": "http://www.refinery29.com/impulsive-buys-spending-money-2016",
+      "topics": [1],
+      "mediums": [0,2],
+      "photo_url": "10items.png"
+    },
+    {
       "title": "Sound Check: Rob Moose",
       "url": "https://www.openingceremony.com/entry.asp?pid=10085",
       "topics": [2],
       "mediums": [0,2],
       "photo_url": "robmoose.png"
+    },
+    {
+      "title": "The Beauty Routine Of A K-Pop Star",
+      "url": "http://www.refinery29.com/eric-nam-korean-skin-care-routine",
+      "topics": [2],
+      "mediums": [2],
+      "photo_url": "eric_nam.png"
     },
     {
       "title": "Reykjavik: Where Street Art Takes Cues From Natural Wonders",
@@ -78,7 +92,7 @@
     },
     {
       "title": "Friday's At Five: Opening Ceremony's Cocktail Column",
-      "url": "https://www.openingceremony.com/entry.asp?sid=5&cat=Fridays%20At%20Five",
+      "url": "http://blog.openingceremony.com/ocsearch.asp?keyword=fridays+at+five",
       "topics": [0],
       "mediums": [2,3],
       "photo_url": "fridays.gif"
