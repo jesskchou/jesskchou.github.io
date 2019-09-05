@@ -1,5 +1,12 @@
 [
     {
+      "title": "Refinery29’s Sweet Digs",
+      "url": "https://www.refinery29.com/en-us/sweet-digs",
+      "topics": [3],
+      "mediums": [0,1,2],
+      "photo_url": "sweet-digs.png"
+    },
+    {
         "title": "Q&A: Twin Shadow On His Latest Album",
         "url": "https://www.openingceremony.com/entry.asp?pid=9990",
         "topics": [2],
