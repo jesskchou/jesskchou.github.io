@@ -1,5 +1,12 @@
 [
     {
+      "title": "Refinery29’s Money Diaries",
+      "url": "http://www.refinery29.com/money-diary",
+      "topics": [3],
+      "mediums": [2],
+      "photo_url": "moneydiary.png"
+    },
+    {
       "title": "Refinery29’s Sweet Digs",
       "url": "https://www.refinery29.com/en-us/sweet-digs",
       "topics": [3],
@@ -7,11 +14,53 @@
       "photo_url": "sweet-digs.png"
     },
     {
-        "title": "Q&A: Twin Shadow On His Latest Album",
-        "url": "https://www.openingceremony.com/entry.asp?pid=9990",
-        "topics": [2],
-        "mediums": [0, 2],
-        "photo_url": "twinshadow.png"
+      "title": "Refinery29’s Good Chef, Bad Kitchen",
+      "url": "https://www.youtube.com/watch?v=HjhlviB2GO8&list=PLJEQBmLpTgd9os1vfM6x_CZTxUrVpeabW",
+      "topics": [0],
+      "mediums": [1],
+      "photo_url": "goodchef-badkitchen.png"
+    },
+    {
+      "title": "My Husband Was My Mentor — Here's What Happened After Our Divorce",
+      "url": "https://www.refinery29.com/en-us/2018/10/208183/working-with-ex-husband-after-divorce",
+      "topics": [3],
+      "mediums": [2],
+      "photo_url": "nicki-bluhm.png"
+    },
+    {
+      "title": "I Make $500,000 A Year — & This Is How My Salary Affected My Life",
+      "url": "https://www.refinery29.com/en-us/executive-director-salary-personal-finance-los-angeles-interview",
+      "topics": [3],
+      "mediums": [2],
+      "photo_url": "ballers.png"
+    },
+    {
+      "title": "Refinery29's Not A Trophy Wife",
+      "url": "https://www.refinery29.com/en-us/trophy-wife-salary-comparison",
+      "topics": [3],
+      "mediums": [2],
+      "photo_url": "not-a-trophy-wife.png"
+    },
+    {
+      "title": "What Millennial Women REALLY Think About Splitting The Check",
+      "url": "http://www.refinery29.com/gender-politics-paying",
+      "topics": [3],
+      "mediums": [2],
+      "photo_url": "gender.png"
+    },
+    {
+      "title": "The Future Of Weed Is Looking Millennial Pink",
+      "url": "https://www.refinery29.com/en-us/marijuana-cannabis-self-care-trend-sunday-goods",
+      "topics": [3],
+      "mediums": [0,2],
+      "photo_url": "SundayGoods.png"
+    },
+    {
+      "title": "What Happened When I Tried To Fake Being Outgoing",
+      "url": "http://www.refinery29.com/how-to-be-outgoing-extrovert",
+      "topics": [3],
+      "mediums": [2],
+      "photo_url": "meditation.png"
     },
     {
       "title": "Lollapalooza 2012: The Festival in Photos",
@@ -63,6 +112,13 @@
       "photo_url": "nycb.png"
     },
     {
+        "title": "Q&A: Twin Shadow On His Latest Album",
+        "url": "https://www.openingceremony.com/entry.asp?pid=9990",
+        "topics": [2],
+        "mediums": [0,2],
+        "photo_url": "twinshadow.png"
+    },
+    {
       "title": "I'm Only Buying 10 Pieces Of Clothing This Year—Here's Everything I Regret",
       "url": "http://www.refinery29.com/impulsive-buys-spending-money-2016",
       "topics": [1],
@@ -75,13 +131,6 @@
       "topics": [2],
       "mediums": [0,2],
       "photo_url": "robmoose.png"
-    },
-    {
-      "title": "The Beauty Routine Of A K-Pop Star",
-      "url": "http://www.refinery29.com/eric-nam-korean-skin-care-routine",
-      "topics": [2],
-      "mediums": [2],
-      "photo_url": "eric_nam.png"
     },
     {
       "title": "Reykjavik: Where Street Art Takes Cues From Natural Wonders",
@@ -145,13 +194,6 @@
       "topics": [1],
       "mediums": [2],
       "photo_url": "jimihendrix.png"
-    },
-    {
-      "title": "The Color Combinations That Will Transform Your Outfit",
-      "url": "http://www.refinery29.com/color-wheel-creative-outfit-combinations",
-      "topics": [1],
-      "mediums": [2],
-      "photo_url": "clothes.png"
     },
     {
       "title": "Why This North Korean Street Style Story Is Dangerous",
@@ -273,39 +315,11 @@
       "photo_url": "hacks.png"
     },
     {
-      "title": "Forget Whiskey: Make Great Cold-Weather Drinks with Gin",
-      "url": "http://www.thedailymeal.com/forget-whiskey-make-great-cold-weather-drinks-gin/112713",
-      "topics": [0],
-      "mediums": [1,2],
-      "photo_url": "gincocktails.png"
-    },
-    {
       "title": "Next Cocktail Trend: Gin and Tonics Galore",
       "url": "http://www.thedailymeal.com/next-cocktail-trend-gin-and-tonics-galore",
       "topics": [0],
       "mediums": [2],
       "photo_url": "ginandtonic.png"
-    },
-    {
-      "title": "What Millennial Women REALLY Think About Splitting The Check",
-      "url": "http://www.refinery29.com/gender-politics-paying",
-      "topics": [3],
-      "mediums": [2],
-      "photo_url": "gender.png"
-    },
-    {
-      "title": "What Happened When I Tried To Fake Being Outgoing",
-      "url": "http://www.refinery29.com/how-to-be-outgoing-extrovert",
-      "topics": [3],
-      "mediums": [2],
-      "photo_url": "meditation.png"
-    },
-    {
-      "title": "Refinery29’s Money Diaries",
-      "url": "http://www.refinery29.com/money-diary",
-      "topics": [3],
-      "mediums": [2],
-      "photo_url": "moneydiary.png"
     },
     {
       "title": "How Sriracha Is Made",
